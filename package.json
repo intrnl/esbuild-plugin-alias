@@ -1,0 +1,21 @@
+{
+	"type": "module",
+	"name": "@intrnl/esbuild-plugin-alias",
+	"description": "Define import alias to esbuild",
+	"version": "0.1.0",
+	"author": "intrnl",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/intrnl/esbuild-plugin-alias"
+	},
+	"files": [
+		"src/"
+	],
+	"main": "src/index.js",
+	"peerDependencies": {
+		"esbuild": ">=0.13.15"
+	},
+	"devDependencies": {
+		"esbuild": "^0.13.15"
+	}
+}
