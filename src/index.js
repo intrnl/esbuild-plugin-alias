@@ -18,7 +18,7 @@ export default function aliasPlugin (options = {}) {
 				});
 
 				if (shouldResolve) {
-					let result = build.resolve(nextId, args);
+					let result = await build.resolve(nextId, args);
 					return result;
 				}
 				else {
